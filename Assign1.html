@@ -1,0 +1,19 @@
+<html>
+    <head>
+        
+    </head>
+    <body>
+      Today is:<p id="d"></p>
+      Current Time is:<p id="txt"></p>
+      <script>
+          var date1=new Date();
+          var day=date1.getDay();
+          var h=date1.getHours();
+          var m=date1.getMinutes();
+          var s=date1.getSeconds();
+          document.getElementById('d').innerHTML=day;
+          document.getElementById('txt').innerHTML=h+"pm :"+m+":"+s;
+      </script>
+      
+    </body>
+</html>
